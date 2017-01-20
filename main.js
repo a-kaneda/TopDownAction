@@ -24,14 +24,6 @@ const ATTACK_EFFECTIVE_TIME = 20;
 const DAMAGE_EFFECT_TIME = 120;
 const CREATE_ENEMY_INTERVAL = 180;
 
-const ASSETS = {
-  image: {
-    'player': './assets/images/player.png',
-    'attack': './assets/images/attack.png',
-    'enemy': './assets/images/enemy.png',
-  },
- };
-
 phina.define('MainScene', {
   superClass: 'DisplayScene',
   
